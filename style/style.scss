@@ -17,5 +17,71 @@ body {
 
 .container {
     margin: auto;
-    width: 300px;
+    width: 350px;
+    padding-bottom: 20px;
+    .header {
+        margin-top: 50px;
+        font-size: 40px;
+        text-align: center
+    }
+    .paragraph {
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .reviews {
+        margin: 20px;
+        padding: 20px;
+        background-color: $light-grayish-magenta;
+            .reviews-text {
+                margin: 10px;
+                font-weight: bold;
+            }
+        }
+
+    .reviews {
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        background-color: $light-grayish-magenta;
+            .reviews-text {
+                margin: 10px;
+            }
+        }
+    .people-review {
+        margin-top: 20px;
+        background-color: $dark-magenta;
+        color: $white;
+        border-radius: 10px;
+    
+        .review-header {
+            padding: 20px 20px 0;
+            display: flex;
+            gap: 20px;
+            .profile-foto {
+                width: 45px;
+                border-radius: 50%;
+                }
+            .profile-name {
+                margin-top: 10px;
+                }
+            .verified {
+                margin-top: 5px;
+                color: $soft-pink;
+                opacity: 70%;
+                }
+            }
+            .text {
+                padding: 20px;
+                font-size: 18px;
+                line-height: 1.2;
+                text-align: center;
+            }
+        }
+    
 }
+
+
+

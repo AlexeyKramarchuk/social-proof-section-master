@@ -11,7 +11,66 @@ body {
 
 .container {
   margin: auto;
-  width: 300px;
+  width: 350px;
+  padding-bottom: 20px;
+}
+.container .header {
+  margin-top: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+.container .paragraph {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.2;
+}
+.container .reviews {
+  margin: 20px;
+  padding: 20px;
+  background-color: hsl(300deg, 24%, 96%);
+}
+.container .reviews .reviews-text {
+  margin: 10px;
+  font-weight: bold;
+}
+.container .reviews {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: hsl(300deg, 24%, 96%);
+}
+.container .reviews .reviews-text {
+  margin: 10px;
+}
+.container .people-review {
+  margin-top: 20px;
+  background-color: hsl(300deg, 43%, 22%);
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+}
+.container .people-review .review-header {
+  padding: 20px 20px 0;
+  display: flex;
+  gap: 20px;
+}
+.container .people-review .review-header .profile-foto {
+  width: 45px;
+  border-radius: 50%;
+}
+.container .people-review .review-header .profile-name {
+  margin-top: 10px;
+}
+.container .people-review .review-header .verified {
+  margin-top: 5px;
+  color: hsl(333deg, 80%, 67%);
+  opacity: 70%;
+}
+.container .people-review .text {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
