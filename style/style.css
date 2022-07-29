@@ -87,10 +87,12 @@ body {
     margin: 0;
   }
   .container .header {
+    text-align: start;
     grid-column: 1/2;
     grid-row: 1/3;
   }
   .container .paragraph {
+    text-align: start;
     grid-column: 1/2;
     grid-row: 4/6;
   }
